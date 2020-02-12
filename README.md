@@ -13,9 +13,6 @@ but what I want to do is instead of making these multiple GET requests inside ap
 POST    
 1000ms   
 lookup    
-body: {    
-    user: [1,2],    
-    cusomter[2,3]     
-}      
+body: { user: [1,2], cusomter[2,3]}      
 
 apiCall() should return a promise so that it can access the response from the request.
